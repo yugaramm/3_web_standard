@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>textarea tag</title>
+        <style>
+            input{margin-bottom: 30px; width: 500px; height: 50px; padding-left: 20px;
+                border: 1px solid #CFCFCF; border-radius: 10px;}
+            label:nth-of-type(2){position: absolute; margin-top: 40px;}
+            textarea{width: 500px; height: 80px; margin-left: 37px; resize: none; padding: 20px 0 0 20px;
+                border: 1px solid #CFCFCF; border-radius: 10px;}
+        </style>
+    </head>
+    <body>
+        <textarea name="" id="" cols="30" rows="10">초깃값</textarea>
+
+        <!--실습-->
+        <form action="#">
+            <fieldset> 
+                <legend>게시판 글쓰기</legend>
+                    <label>제목</label>
+                    <input type="text" placeholder="제목을 입력하세요">
+                    <br>
+                    <label>본문</label>
+                    <textarea placeholder="본문을 입력하세요"></textarea>
+            </fieldset>
+        </form>
+    </body>
+</html>

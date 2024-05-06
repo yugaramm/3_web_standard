@@ -1,0 +1,7 @@
+.inline{display: inline; background-color: aqua;}
+.block{display: block; background-color: beige;}
+.inline-block{display: inline-block; background-color: aquamarine; width: 500px; }
+.none{display: none;}
+
+.hover-button:hover + .msg{display: block;}
+.msg{display: none; background-color: lime; font-size: 50px; padding: 20px; margin-top: 10px; color: blue;}
